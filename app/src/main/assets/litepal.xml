@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="brerding" ></dbname>
+    <version value="1" ></version>
+
+    <list>
+        <mapping class="com.cx.breeding.bean.Animal"></mapping>
+        <mapping class="com.cx.breeding.bean.Category"></mapping>
+        <mapping class="com.cx.breeding.bean.User"></mapping>
+    </list>
+</litepal>

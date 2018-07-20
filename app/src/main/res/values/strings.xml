@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">养殖管理</string>
+    <string-array name="spingarr">
+        <item>管理员</item>
+        <item>普通用户</item>
+        <item>Vip用户</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cx.breeding">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name="com.cx.breeding.views.activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Base">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".views.activity.AnimalActivity"></activity>
+        <activity android:name=".views.activity.UserActivity"></activity>
+        <activity android:name=".views.activity.AddUserActivity"></activity>
+        <activity android:name=".views.activity.ModifyUserActivity"></activity>
+        <activity android:name=".views.activity.AnimalItemActivity"></activity>
+        <activity android:name=".views.activity.AddAnimalActivity"></activity>
+        <activity android:name=".views.activity.ModifyAnimalActivity"></activity>
+        <activity android:name=".views.activity.AddCategory"></activity>
+        <activity android:name=".views.activity.SearchActivity"></activity>
+    </application>
+
+</manifest>
